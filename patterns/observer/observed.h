@@ -1,16 +1,16 @@
 #pragma once
 
 #include "changeInterface.h"
+#include <vector>
 
 class observed
 {
 public:
-	observed(changeInterface* p) {
-		_audio = p;
-	}
+
 	void changge();
+	void addObserver(changeInterface*);
 
 private:
-	changeInterface* _audio;
+	std::vector<changeInterface*> _observerList;
 };
 
