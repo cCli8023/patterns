@@ -2,5 +2,5 @@
 
 void observed::changge()
 {
-	_audio->play();
+	_audio->change();
 }

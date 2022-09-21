@@ -1,16 +1,16 @@
 #pragma once
 
-#include "observer.h"
+#include "changeInterface.h"
 
 class observed
 {
 public:
-	observed(audio* p) {
+	observed(changeInterface* p) {
 		_audio = p;
 	}
 	void changge();
 
 private:
-	audio* _audio;
+	changeInterface* _audio;
 };
 

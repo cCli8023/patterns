@@ -1,4 +1,5 @@
 #include "observed.h"
+#include "observer.h"
 
 int main() {
 	audio* observerAudio = new audio;
